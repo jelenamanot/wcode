@@ -1,0 +1,120 @@
+.inner-wrapper {
+	padding: 2% 0;
+	margin: 3% 0 0 4.5%;
+	width: 100%;
+	.one-third {
+		width: 28%;
+		float: left;
+		margin-right: 3.5%;
+		padding-bottom: 4%;
+			p {
+				margin: 1% 0;
+			}
+	}
+}
+
+.center {
+	text-align: center;
+}
+// ------ END Layout ------
+
+
+//  ----- START Who Section ----- 
+.who {
+	padding: 1% 0 2% 0;
+	.inner-wrapper i {
+		color: $rose;
+		font-size: 250%;
+		margin-bottom: 1%;
+		display: inline-block;
+    	width: 100%;
+    	text-align: center;
+	}
+	.inner-wrapper h2 {
+		text-align: center;
+		font-weight: 600;
+	}
+}
+
+//  ----- END Who Section ----- 
+
+// ----- START Technologies -----
+.technologies {
+	padding: 1% 0% 2% 0%;
+	color: $darkgrey;
+	overflow: hidden;
+	font-size: 90%;
+	.one-third img{
+		height: 100px;
+		display: block;
+    	margin: 0 auto 3% auto;
+	}
+	.one-third p {
+		margin: 1% 0;
+		text-align: justify;
+		width: 100%;
+	}
+}
+
+// ----- END Technologies -----
+
+// ------ START Look -----
+.take-a-look {
+	background-color: $darkgrey;
+	color: #fff;
+	padding: 7% 0;
+}
+// ------ END Look -----
+
+// ------ START Arrow -----
+.arrow-down {
+	width: 0; 
+  	height: 0; 
+  	border-left: 20px solid transparent;
+  	border-right: 20px solid transparent;
+  	border-top: 20px solid $darkgrey;
+  	margin: 0 auto;
+}
+// ------ END Arrow -----
+
+// ----- START Portfolio -----
+.our-portfolio {
+	padding: 2% 0 4% 0;
+	color: $darkgrey;
+	overflow: hidden;
+	img {
+		width: 70%;
+		cursor: pointer;
+		@include transition(all 0.5s ease);
+		display: block;
+		margin: 0 auto;
+	}
+	
+	#l-rotate:hover {
+		@include transform(rotate(-10deg) scale(1.2, 1.2));
+	}
+	#r-rotate:hover {
+		@include transform(rotate(10deg) scale(1.2, 1.2));
+	}
+	#scale-rotate:hover {
+		@include transform(scale(1.2, 1.2));
+	}
+	p {
+		text-align: center;
+		width: 100%;
+		font-size: 120%;
+		margin: 0 0 4% 0;
+	}
+	.center {
+		margin-bottom: 1%;
+	}
+}
+// ----- END Portfolio -----
+
+// ----- START Sign Up -----
+.sign-up-section {
+	padding: 1% 0 5% 0;
+	background-color: $darkgrey;
+	overflow: hidden;
+	border-bottom: 1px solid $rose;
+}

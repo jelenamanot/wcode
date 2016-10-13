@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1023px) {
+	header nav ul {
+		font-size: 85%;
+		li {
+				margin-left: 10px;
+		}
+	}
+	
+}
+
+
+@media only screen and (max-width: 767px) {
+	header h1 {
+		font-size: 220%;
+		margin-top: 18%;
+	}
+	nav ul {display: none;}
+
+	.technologies .inner-wrapper, .who .inner-wrapper {
+		width: 90%;
+		.one-third {
+			width: 100%;
+			margin-right: 0;
+		}
+	}
+
+	.take-a-look { font-size: 90%; }
+
+	form {
+		input[type=text], input[type=email], input[type=password], button {
+			width: 70%;
+   	 		margin-right: 0;
+   	 		margin-bottom: 2%;
+		}
+		button {
+			width: 74%;
+		}
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: 180%;
+	}
+	header h1 {
+		font-size: 180%;
+		margin-top: 28%;
+	}
+
+	.take-a-look { font-size: 70%; }
+
+	footer .inner-wrapper, .our-portfolio .inner-wrapper {
+		width: 90%; 
+		.one-third {
+			width: 100%;
+			margin-right: 0;
+		}
+		#l-rotate, #r-rotate, #scale-rotate {
+			width: 50%;
+		}
+	}
+
+}

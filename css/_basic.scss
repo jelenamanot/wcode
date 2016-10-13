@@ -1,0 +1,42 @@
+// ---- BASIC SETUP ---- 
+html,
+body {
+	background-color: #fff;
+	color: $darkgrey;
+	font-family: $sans;
+	font-weight: 400;
+	font-size: 25px;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+
+// clearing floats 
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+// Headings, Paragraphs 
+h1 {
+	font-family: $cursive;
+	color: $rose;
+	font-size: 200%;
+	text-align: center;
+}
+h2 {
+	text-transform: lowercase;
+	font-weight: 400;
+}
+p {
+	text-align: justify;
+}
+//Spans 
+.cursive-letter {
+	font-family: $cursive;
+	color: $rose;
+}

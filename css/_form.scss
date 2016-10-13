@@ -1,0 +1,27 @@
+form {
+	width: 100%;
+	text-align: center;
+	input[type=text], input[type=email], input[type=password], button {
+		padding: 1.5% 2%;
+		width: 20%;
+		outline: none;
+		border: none;
+    	@include border-radius(3px);
+   	 	margin-right: 1%;
+   	 	font-family: $sans;
+	}
+	// button sign up hover effect and other
+	button {
+		background-color: $rose;
+		color: #fff;
+		@include transition(all 0.3s linear);
+		font-weight: 300;
+	}
+	button:hover,
+	button:active {
+		color: $darkgrey;
+		background-color: #fff;
+	}
+}
+
+

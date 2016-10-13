@@ -1,0 +1,59 @@
+footer {
+	padding: 1% 0 2% 0;
+	background-color: $darkgrey;
+	overflow: hidden;
+	color: #fff;
+	font-size: 90%;
+	p {
+		color: #fff;
+		width: 100%;
+		text-align: center;
+		a { 
+			text-decoration: none; 
+			color: $rose;
+		}
+	}
+	.inner-wrapper { padding: 0;}
+	.inner-wrapper .one-third {padding-bottom: 0;}
+	.one-third {
+		img {
+			width: 50%;
+			cursor: pointer;
+		}
+		// Sve ul liste
+		ul {
+			display: block;
+			list-style-type: none;
+			padding-left: 0;
+			li {
+				margin-bottom: 2%;
+			}
+			.title {
+				color: $rose;
+				padding-bottom: 2%;
+				margin-bottom: 2%;
+				border-bottom: 1px solid $rose;
+				@include border-radius(5px);
+			}
+		}	
+		
+		// Social
+		ul.social-icons li {
+			font-size: 120%;
+			display: inline;
+			margin-right: 3%;
+		}
+
+		ul li a:link,
+		ul li a:visited {
+			text-decoration: none;
+			color: #fff;
+			@include transition(all 0.3s linear);
+		}
+		ul li a:hover,
+		ul li a:active {
+			color: $rose;
+		}
+	}
+
+}
